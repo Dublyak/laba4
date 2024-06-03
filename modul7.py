@@ -1,11 +1,9 @@
-# Функция для нахождения суммы цифр числа
 def sum_of_digits(number):
     sum_digits = 0
     for digit in str(number):
         sum_digits += int(digit)
     return sum_digits
 
-# Функция для выбора числа с максимальной суммой цифр
 def max_sum_of_digits(numbers):
     max_number = None
     max_sum = -1
